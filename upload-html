@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Upload script for Linkbot
+# Add to crontab 
+#  0 * * * * /path/to/upload-html 2>&1
+
+FILE="/path/to/urls.html"
+if test `find "$FILE" -cmin -60`
+then
+    scp -i ~/.ssh/identity $FILE user@host:~/public-html/
+fi
+
