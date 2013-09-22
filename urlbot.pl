@@ -1,7 +1,14 @@
 ﻿#!/usr/bin/perl
 #
 # **** URL Title Bot ****
-#
+# 
+# * announce titles of URLs pasted to an IRC channel
+# * logs newest urls to a HTML file
+# * HTML can be uploaded somewhere or just symlinked to public_html
+# * also saves urls to a database file
+# * reads some FB and Twitter post metadata
+# * fuzzy filtering to avoid spamming the obvious titles
+# 
 # Requirements:
 # apt-get install libbot-basicbot-perl libio-socket-ssl-perl libconfig-file-perl
 #
