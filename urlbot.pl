@@ -252,7 +252,8 @@ Bot->new(
 	nick      => $nick,
 	alt_nicks => [$nick."-", $nick."_"],
 	username  => "",
-	name      => ""
+	name      => "",
+	charset => "utf-8",
 )->run();
 
 

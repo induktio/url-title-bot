@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Upload script for Linkbot
+# Upload script for url-title-bot
 # Add to crontab 
 #  0 * * * * /path/to/upload-html 2>&1
 
